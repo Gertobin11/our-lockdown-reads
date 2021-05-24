@@ -79,6 +79,34 @@ in clear , strucured way
 
 - Editing and deleting of reviews and creating new reviews should be granted to users by the principles of C-R-U-D functionality
 
+## Structure Of The Project
+
+The main focus of the website is being able to utilize the database and display the correct conents to the user.
+I have used mongodb to create 3 collections for storing the data , they are users for 
+storing our registered users passwords and username to access their profile and create, update and delete their reviews. All users registered 
+or not can read all reviews.
+the next collection is labelled Books and this will store all the data
+for the book in which a user has reviewed and willbe stored under the following keys
+
+- _id
+- book_name
+- book_author
+- genre 
+- rating 
+- review_title
+- review
+- reviewed_by
+- image_url
+- purchase_link
+
+with the data that has been input to the fields we should be able to create 
+an informative site hat is pleasing to the eye.
+
+Lastly I hav created a collection for genres which will relate to the genre 
+field of the previous database, this will help to organize the books by genre 
+and I will be able to add more genres if or split an over subscribed genre into 
+2 seperate genres.
+
 ## Design Choices 
 
 ### Fonts
@@ -93,6 +121,23 @@ in clear , strucured way
 
 ### Technologies Used
 
+- HTML
+
+- CSS
+
+- JAVASCRIPT 
+
+- JQUERY
+
+- PYTHON 
+
+- MONGODB
+
+- PYMONGO 
+
+- FLASK
+
+
 ### Testing
 
 ### Bugs / Fixes
@@ -100,3 +145,9 @@ in clear , strucured way
 ### Deployment
 
 ### Credits
+
+- [randomkeygen.com](https://randomkeygen.com/) for allowing me to create a secure secret key.
+
+- [canva.com](https://www.canva.com/) for the free pro trial which allowed me to create my logo.
+
+- 
